@@ -13,6 +13,9 @@
 		EAE4580B26E765D100B1C59C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE4580A26E765D100B1C59C /* Preview Assets.xcassets */; };
 		EAE4581626E765D200B1C59C /* CloneInstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4581526E765D200B1C59C /* CloneInstagramTests.swift */; };
 		EAE4582126E765D200B1C59C /* CloneInstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4582026E765D200B1C59C /* CloneInstagramUITests.swift */; };
+		EAE4583026E766CA00B1C59C /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4582F26E766CA00B1C59C /* FormField.swift */; };
+		EAE4583326E769D500B1C59C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4583226E769D500B1C59C /* SignInView.swift */; };
+		EAE4583526E76BBD00B1C59C /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4583426E76BBD00B1C59C /* ButtonModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		EAE4581C26E765D200B1C59C /* CloneInstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloneInstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE4582026E765D200B1C59C /* CloneInstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneInstagramUITests.swift; sourceTree = "<group>"; };
 		EAE4582226E765D200B1C59C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE4582F26E766CA00B1C59C /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		EAE4583226E769D500B1C59C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		EAE4583426E76BBD00B1C59C /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,8 @@
 		EAE4580226E765CC00B1C59C /* CloneInstagram */ = {
 			isa = PBXGroup;
 			children = (
+				EAE4583126E769C100B1C59C /* Views */,
+				EAE4582E26E766AD00B1C59C /* Component */,
 				EAE4580326E765CC00B1C59C /* CloneInstagramApp.swift */,
 				EAE4580526E765CC00B1C59C /* ContentView.swift */,
 				EAE4580726E765D100B1C59C /* Assets.xcassets */,
@@ -128,6 +136,23 @@
 				EAE4582226E765D200B1C59C /* Info.plist */,
 			);
 			path = CloneInstagramUITests;
+			sourceTree = "<group>";
+		};
+		EAE4582E26E766AD00B1C59C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				EAE4582F26E766CA00B1C59C /* FormField.swift */,
+				EAE4583426E76BBD00B1C59C /* ButtonModifiers.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		EAE4583126E769C100B1C59C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAE4583226E769D500B1C59C /* SignInView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE4583026E766CA00B1C59C /* FormField.swift in Sources */,
 				EAE4580626E765CC00B1C59C /* ContentView.swift in Sources */,
+				EAE4583526E76BBD00B1C59C /* ButtonModifiers.swift in Sources */,
+				EAE4583326E769D500B1C59C /* SignInView.swift in Sources */,
 				EAE4580426E765CC00B1C59C /* CloneInstagramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
