@@ -13,18 +13,20 @@ struct SignInView: View {
     
     
     var body: some View {
-        VStack(spacing: 20) {
-            Image(systemName: "camera")
-                .font(.system(size: 60, weight: .black, design: .monospaced))
-            VStack(alignment: .leading) {
-                Text("Welcome Back")
-                    .font(.system(size: 32, weight: .heavy))
-                Text("Sign To Continue")
-                    .font(.system(size: 16, weight: .medium))
-                
+        NavigationView {
+            VStack(spacing: 20) {
+                Image(systemName: "camera")
+                    .font(.system(size: 60, weight: .black, design: .monospaced))
+                VStack(alignment: .leading) {
+                    Text("Welcome Back")
+                        .font(.system(size: 32, weight: .heavy))
+                    Text("SignIn To Continue")
+                        .font(.system(size: 16, weight: .medium))
+                }
+                    
                 FormField(value: $email, icon: "envelope.fill", placeholder: "E-mail")
                 FormField(value: $password, icon: "lock.fill", placeholder: "Password", isSecure: true)
-                
+                    
                 Button(action: {}) {
                     Text("Sign In")
                         .font(.title)
@@ -32,12 +34,14 @@ struct SignInView: View {
                 }
                 HStack {
                     Text("New?")
-                    Text("Create an Account.")
-                        .font(.system(size: 20, weight: .semibold))
+                    NavigationLink(destination: SignUpView()) {
+                        Text("Create an Account.")
+                            .font(.system(size: 20, weight: .semibold))
+                            .foregroundColor(.black)
+                    }
                 }
-                
-            }
-        }.padding()
+            }.padding()
+        }
     }
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA759D8926E8378800CCFB21 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA759D8826E8378800CCFB21 /* SignUpView.swift */; };
+		EA759D8C26E83C2B00CCFB21 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA759D8B26E83C2B00CCFB21 /* ImagePicker.swift */; };
 		EAE4580426E765CC00B1C59C /* CloneInstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4580326E765CC00B1C59C /* CloneInstagramApp.swift */; };
 		EAE4580626E765CC00B1C59C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4580526E765CC00B1C59C /* ContentView.swift */; };
 		EAE4580826E765D100B1C59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE4580726E765D100B1C59C /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA759D8826E8378800CCFB21 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		EA759D8B26E83C2B00CCFB21 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		EAE4580026E765CC00B1C59C /* CloneInstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloneInstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE4580326E765CC00B1C59C /* CloneInstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneInstagramApp.swift; sourceTree = "<group>"; };
 		EAE4580526E765CC00B1C59C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA759D8A26E83C0300CCFB21 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EA759D8B26E83C2B00CCFB21 /* ImagePicker.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		EAE457F726E765CC00B1C59C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		EAE4580226E765CC00B1C59C /* CloneInstagram */ = {
 			isa = PBXGroup;
 			children = (
+				EA759D8A26E83C0300CCFB21 /* Utilities */,
 				EAE4583126E769C100B1C59C /* Views */,
 				EAE4582E26E766AD00B1C59C /* Component */,
 				EAE4580326E765CC00B1C59C /* CloneInstagramApp.swift */,
@@ -151,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				EAE4583226E769D500B1C59C /* SignInView.swift */,
+				EA759D8826E8378800CCFB21 /* SignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,7 +301,9 @@
 				EAE4583026E766CA00B1C59C /* FormField.swift in Sources */,
 				EAE4580626E765CC00B1C59C /* ContentView.swift in Sources */,
 				EAE4583526E76BBD00B1C59C /* ButtonModifiers.swift in Sources */,
+				EA759D8C26E83C2B00CCFB21 /* ImagePicker.swift in Sources */,
 				EAE4583326E769D500B1C59C /* SignInView.swift in Sources */,
+				EA759D8926E8378800CCFB21 /* SignUpView.swift in Sources */,
 				EAE4580426E765CC00B1C59C /* CloneInstagramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
