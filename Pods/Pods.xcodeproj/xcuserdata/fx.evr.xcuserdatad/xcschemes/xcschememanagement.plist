@@ -6,8 +6,6 @@
 	<dict>
 		<key>AppAuth.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
@@ -34,15 +32,11 @@
 		</dict>
 		<key>FirebaseAuthUI-FirebaseAuthUI.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
 		<key>FirebaseAuthUI.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
@@ -69,15 +63,11 @@
 		</dict>
 		<key>FirebaseGoogleAuthUI-FirebaseGoogleAuthUI.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
 		<key>FirebaseGoogleAuthUI.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
@@ -90,15 +80,11 @@
 		</dict>
 		<key>FirebaseUI.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
 		<key>GTMAppAuth.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
@@ -118,15 +104,11 @@
 		</dict>
 		<key>GoogleSignIn-GoogleSignIn.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
 		<key>GoogleSignIn.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
