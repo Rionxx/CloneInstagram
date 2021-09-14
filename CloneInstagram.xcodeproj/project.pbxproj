@@ -26,6 +26,8 @@
 		EAE4583026E766CA00B1C59C /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4582F26E766CA00B1C59C /* FormField.swift */; };
 		EAE4583326E769D500B1C59C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4583226E769D500B1C59C /* SignInView.swift */; };
 		EAE4583526E76BBD00B1C59C /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4583426E76BBD00B1C59C /* ButtonModifiers.swift */; };
+		EAFA54D926F09B1D007CB3FE /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA54D826F09B1D007CB3FE /* SessionStore.swift */; };
+		EAFA54DB26F0A17F007CB3FE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA54DA26F0A17F007CB3FE /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		EAE4582F26E766CA00B1C59C /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
 		EAE4583226E769D500B1C59C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		EAE4583426E76BBD00B1C59C /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
+		EAFA54D826F09B1D007CB3FE /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		EAFA54DA26F0A17F007CB3FE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EC3462F724269FD74A0432F5 /* Pods_CloneInstagram_CloneInstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloneInstagram_CloneInstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -139,6 +143,7 @@
 			children = (
 				EA85E23926E8BD9A0017FD1A /* AuthService.swift */,
 				EA85E23B26E8C1390017FD1A /* StorageService.swift */,
+				EAFA54D826F09B1D007CB3FE /* SessionStore.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 			children = (
 				EAE4583226E769D500B1C59C /* SignInView.swift */,
 				EA759D8826E8378800CCFB21 /* SignUpView.swift */,
+				EAFA54DA26F0A17F007CB3FE /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -480,6 +486,8 @@
 			files = (
 				EAE4583026E766CA00B1C59C /* FormField.swift in Sources */,
 				EA85E23726E8B8ED0017FD1A /* Encodable.swift in Sources */,
+				EAFA54DB26F0A17F007CB3FE /* HomeView.swift in Sources */,
+				EAFA54D926F09B1D007CB3FE /* SessionStore.swift in Sources */,
 				EAE4580626E765CC00B1C59C /* ContentView.swift in Sources */,
 				EA85E23526E8B8060017FD1A /* UserModel.swift in Sources */,
 				EAE4583526E76BBD00B1C59C /* ButtonModifiers.swift in Sources */,
