@@ -13,8 +13,9 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            FormField(value: $mail, icon: "mail", placeholder: "E-mail")
-            FormField(value: $password, icon: "lock", placeholder: password, isSecure: true)
+//            FormField(value: $mail, icon: "mail", placeholder: "E-mail")
+//            FormField(value: $password, icon: "lock", placeholder: password, isSecure: true)
+            SignInView()
         }
     }
 }

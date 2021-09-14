@@ -126,12 +126,12 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		EA85E23326E8AB030017FD1A /* Model */ = {
+		EA85E23326E8AB030017FD1A /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				EA85E23426E8B8060017FD1A /* UserModel.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		EA85E23826E8BD6F0017FD1A /* Services */ = {
@@ -169,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				EA85E23826E8BD6F0017FD1A /* Services */,
-				EA85E23326E8AB030017FD1A /* Model */,
+				EA85E23326E8AB030017FD1A /* Models */,
 				EA759D8A26E83C0300CCFB21 /* Utilities */,
 				EAE4583126E769C100B1C59C /* Views */,
 				EAE4582E26E766AD00B1C59C /* Component */,
