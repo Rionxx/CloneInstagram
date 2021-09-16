@@ -15,6 +15,8 @@
 		EA262D9326F1CB330015B564 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA262D9226F1CB330015B564 /* Post.swift */; };
 		EA262D9526F1CB810015B564 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA262D9426F1CB810015B564 /* Profile.swift */; };
 		EA262D9726F1CBD50015B564 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA262D9626F1CBD50015B564 /* Main.swift */; };
+		EA6D918A26F34404001898F4 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D918926F34404001898F4 /* PostModel.swift */; };
+		EA6D918C26F347F4001898F4 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D918B26F347F4001898F4 /* PostService.swift */; };
 		EA759D8926E8378800CCFB21 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA759D8826E8378800CCFB21 /* SignUpView.swift */; };
 		EA759D8C26E83C2B00CCFB21 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA759D8B26E83C2B00CCFB21 /* ImagePicker.swift */; };
 		EA85E23226E89EA80017FD1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA85E23126E89EA80017FD1A /* GoogleService-Info.plist */; };
@@ -66,6 +68,8 @@
 		EA262D9226F1CB330015B564 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		EA262D9426F1CB810015B564 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		EA262D9626F1CBD50015B564 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		EA6D918926F34404001898F4 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		EA6D918B26F347F4001898F4 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		EA759D8826E8378800CCFB21 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		EA759D8B26E83C2B00CCFB21 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		EA85E23126E89EA80017FD1A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				EA85E23426E8B8060017FD1A /* UserModel.swift */,
+				EA6D918926F34404001898F4 /* PostModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				EA85E23926E8BD9A0017FD1A /* AuthService.swift */,
 				EA85E23B26E8C1390017FD1A /* StorageService.swift */,
 				EAFA54D826F09B1D007CB3FE /* SessionStore.swift */,
+				EA6D918B26F347F4001898F4 /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -513,6 +519,8 @@
 				EA85E23A26E8BD9A0017FD1A /* AuthService.swift in Sources */,
 				EA759D8926E8378800CCFB21 /* SignUpView.swift in Sources */,
 				EA262D9126F1C8D60015B564 /* Notifications.swift in Sources */,
+				EA6D918A26F34404001898F4 /* PostModel.swift in Sources */,
+				EA6D918C26F347F4001898F4 /* PostService.swift in Sources */,
 				EA85E23C26E8C1390017FD1A /* StorageService.swift in Sources */,
 				EA262D9326F1CB330015B564 /* Post.swift in Sources */,
 				EAE4580426E765CC00B1C59C /* CloneInstagramApp.swift in Sources */,

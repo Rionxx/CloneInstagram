@@ -31,8 +31,16 @@ struct Post: View {
             self.clear()
             return
         }
-        self.clear()
+        
         // firebase
+        
+        PostService.uploadPost(caption: text, imageData: imageData, onSuccess: {
+            self.clear()
+        }) { (errorMessage) in
+            self.error = errorMessage
+            self.showingAlert = true
+            return
+        }
         
     }
     
@@ -104,3 +112,4 @@ struct Post: View {
         
     }
 }
+
