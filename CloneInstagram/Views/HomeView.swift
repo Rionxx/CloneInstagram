@@ -31,7 +31,7 @@ struct CustomTabView: View {
                     .tag("housel.fill")
                 Search()
                     .tag("magnifyingglass")
-                Add()
+                Post()
                     .tag("camera.viewfinder")
                 Notifications()
                     .tag("heart.fill")
@@ -70,7 +70,7 @@ struct CustomTabView: View {
 struct TabButton: View {
     var image: String
     
-    @Binding  var selectedTab: String
+    @Binding var selectedTab: String
     
     var body: some View {
         Button(action: {
