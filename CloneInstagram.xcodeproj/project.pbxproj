@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,14 +16,12 @@
 		EA262D9526F1CB810015B564 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA262D9426F1CB810015B564 /* Profile.swift */; };
 		EA262D9726F1CBD50015B564 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA262D9626F1CBD50015B564 /* Main.swift */; };
 		EA6D918A26F34404001898F4 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D918926F34404001898F4 /* PostModel.swift */; };
-		EA6D918C26F347F4001898F4 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D918B26F347F4001898F4 /* PostService.swift */; };
 		EA759D8926E8378800CCFB21 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA759D8826E8378800CCFB21 /* SignUpView.swift */; };
 		EA759D8C26E83C2B00CCFB21 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA759D8B26E83C2B00CCFB21 /* ImagePicker.swift */; };
 		EA85E23226E89EA80017FD1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA85E23126E89EA80017FD1A /* GoogleService-Info.plist */; };
 		EA85E23526E8B8060017FD1A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA85E23426E8B8060017FD1A /* UserModel.swift */; };
 		EA85E23726E8B8ED0017FD1A /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA85E23626E8B8ED0017FD1A /* Encodable.swift */; };
 		EA85E23A26E8BD9A0017FD1A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA85E23926E8BD9A0017FD1A /* AuthService.swift */; };
-		EA85E23C26E8C1390017FD1A /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA85E23B26E8C1390017FD1A /* StorageService.swift */; };
 		EAE4580426E765CC00B1C59C /* CloneInstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4580326E765CC00B1C59C /* CloneInstagramApp.swift */; };
 		EAE4580626E765CC00B1C59C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4580526E765CC00B1C59C /* ContentView.swift */; };
 		EAE4580826E765D100B1C59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE4580726E765D100B1C59C /* Assets.xcassets */; };
@@ -33,6 +31,10 @@
 		EAE4583026E766CA00B1C59C /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4582F26E766CA00B1C59C /* FormField.swift */; };
 		EAE4583326E769D500B1C59C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4583226E769D500B1C59C /* SignInView.swift */; };
 		EAE4583526E76BBD00B1C59C /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4583426E76BBD00B1C59C /* ButtonModifiers.swift */; };
+		EAF4F82526F4C05B00EF54AB /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF4F82426F4C05B00EF54AB /* StorageService.swift */; };
+		EAF4F82726F4C0A000EF54AB /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF4F82626F4C0A000EF54AB /* PostService.swift */; };
+		EAF4F82926F4C47C00EF54AB /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF4F82826F4C47C00EF54AB /* ProfileHeader.swift */; };
+		EAF4F82C26F4C4E700EF54AB /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EAF4F82B26F4C4E700EF54AB /* SDWebImageSwiftUI */; };
 		EAFA54D926F09B1D007CB3FE /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA54D826F09B1D007CB3FE /* SessionStore.swift */; };
 		EAFA54DB26F0A17F007CB3FE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA54DA26F0A17F007CB3FE /* HomeView.swift */; };
 /* End PBXBuildFile section */
@@ -69,14 +71,12 @@
 		EA262D9426F1CB810015B564 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		EA262D9626F1CBD50015B564 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		EA6D918926F34404001898F4 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
-		EA6D918B26F347F4001898F4 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		EA759D8826E8378800CCFB21 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		EA759D8B26E83C2B00CCFB21 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		EA85E23126E89EA80017FD1A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EA85E23426E8B8060017FD1A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		EA85E23626E8B8ED0017FD1A /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
 		EA85E23926E8BD9A0017FD1A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
-		EA85E23B26E8C1390017FD1A /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		EAE4580026E765CC00B1C59C /* CloneInstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloneInstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE4580326E765CC00B1C59C /* CloneInstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneInstagramApp.swift; sourceTree = "<group>"; };
 		EAE4580526E765CC00B1C59C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +92,9 @@
 		EAE4582F26E766CA00B1C59C /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
 		EAE4583226E769D500B1C59C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		EAE4583426E76BBD00B1C59C /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
+		EAF4F82426F4C05B00EF54AB /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		EAF4F82626F4C0A000EF54AB /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		EAF4F82826F4C47C00EF54AB /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		EAFA54D826F09B1D007CB3FE /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		EAFA54DA26F0A17F007CB3FE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EC3462F724269FD74A0432F5 /* Pods_CloneInstagram_CloneInstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloneInstagram_CloneInstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF4F82C26F4C4E700EF54AB /* SDWebImageSwiftUI in Frameworks */,
 				53F816B988F5B912A47AA9FB /* Pods_CloneInstagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,9 +161,9 @@
 			isa = PBXGroup;
 			children = (
 				EA85E23926E8BD9A0017FD1A /* AuthService.swift */,
-				EA85E23B26E8C1390017FD1A /* StorageService.swift */,
 				EAFA54D826F09B1D007CB3FE /* SessionStore.swift */,
-				EA6D918B26F347F4001898F4 /* PostService.swift */,
+				EAF4F82426F4C05B00EF54AB /* StorageService.swift */,
+				EAF4F82626F4C0A000EF54AB /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -234,6 +238,7 @@
 			children = (
 				EAE4582F26E766CA00B1C59C /* FormField.swift */,
 				EAE4583426E76BBD00B1C59C /* ButtonModifiers.swift */,
+				EAF4F82826F4C47C00EF54AB /* ProfileHeader.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -285,6 +290,9 @@
 			dependencies = (
 			);
 			name = CloneInstagram;
+			packageProductDependencies = (
+				EAF4F82B26F4C4E700EF54AB /* SDWebImageSwiftUI */,
+			);
 			productName = CloneInstagram;
 			productReference = EAE4580026E765CC00B1C59C /* CloneInstagram.app */;
 			productType = "com.apple.product-type.application";
@@ -359,6 +367,9 @@
 				Base,
 			);
 			mainGroup = EAE457F726E765CC00B1C59C;
+			packageReferences = (
+				EAF4F82A26F4C4E700EF54AB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = EAE4580126E765CC00B1C59C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -510,6 +521,7 @@
 				EAE4583026E766CA00B1C59C /* FormField.swift in Sources */,
 				EA85E23726E8B8ED0017FD1A /* Encodable.swift in Sources */,
 				EAFA54DB26F0A17F007CB3FE /* HomeView.swift in Sources */,
+				EAF4F82526F4C05B00EF54AB /* StorageService.swift in Sources */,
 				EAFA54D926F09B1D007CB3FE /* SessionStore.swift in Sources */,
 				EAE4580626E765CC00B1C59C /* ContentView.swift in Sources */,
 				EA85E23526E8B8060017FD1A /* UserModel.swift in Sources */,
@@ -518,10 +530,10 @@
 				EAE4583326E769D500B1C59C /* SignInView.swift in Sources */,
 				EA85E23A26E8BD9A0017FD1A /* AuthService.swift in Sources */,
 				EA759D8926E8378800CCFB21 /* SignUpView.swift in Sources */,
+				EAF4F82926F4C47C00EF54AB /* ProfileHeader.swift in Sources */,
 				EA262D9126F1C8D60015B564 /* Notifications.swift in Sources */,
+				EAF4F82726F4C0A000EF54AB /* PostService.swift in Sources */,
 				EA6D918A26F34404001898F4 /* PostModel.swift in Sources */,
-				EA6D918C26F347F4001898F4 /* PostService.swift in Sources */,
-				EA85E23C26E8C1390017FD1A /* StorageService.swift in Sources */,
 				EA262D9326F1CB330015B564 /* Post.swift in Sources */,
 				EAE4580426E765CC00B1C59C /* CloneInstagramApp.swift in Sources */,
 				EA262D8F26F1C8C20015B564 /* Search.swift in Sources */,
@@ -844,6 +856,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EAF4F82A26F4C4E700EF54AB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAF4F82B26F4C4E700EF54AB /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAF4F82A26F4C4E700EF54AB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EAE457F826E765CC00B1C59C /* Project object */;
 }
